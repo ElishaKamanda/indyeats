@@ -1,100 +1,254 @@
 
 
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background-color: #f6fafb;
-  color: #102a43;
+* {
+    margin: 0;
+}
+  
+header {
+    text-align: center;
+    position: relative; 
 }
 
-
-.header {
-  background-color: aquamarine;
-  padding: 20px;
-  text-align: center;
-  border-radius: 10px;
+article {
+    width: 100%;
+    height: 85%;
+    background-color: aquamarine;
+    border: 5px solid white;
+    position: absolute;
+    top: 80px;
+    border-radius: 15px;
+    box-sizing: border-box;
 }
 
-.subtitle {
-  font-size: 14px;
-  color: #064e3b;
+.american{
+    width: 300px; 
+    height: 300px; 
+    border: 5px solid green;
+    position: absolute; 
+    top: 100px; 
+    left: 20px; 
+    border-radius: 15px;
+    box-sizing: border-box; 
+    background-image: url(american.jpg);
+    display: inline-block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;   
 }
 
+.first{
+    width: 289px; 
+    height: 20px; 
+    background-color: bisque;
+    top: 125px; 
+    left: 25px; 
+    border-radius: 15px; 
+    position: absolute; 
+    text-align: center;
 
-.container {
-  max-width: 1000px;
-  margin: 20px auto;
-  padding: 0 15px;
 }
 
-
-.grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 20px;
+.chinese{
+    width: 300px; 
+    height: 300px; 
+    border: 5px solid green; 
+    position: absolute; 
+    top: 100px; 
+    left: 335px; 
+    border-radius: 15px;
+    box-sizing: border-box; 
+    background-image: url(chinese.jpg);
+    display: inline-block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;   
 }
 
-.card {
-  background: white;
-  border-radius: 10px;
-  border: 1px solid #ddd;
-  text-align: center;
-  color: #102a43;
-  transition: transform 0.2s ease;
+.second{
+    width: 289px; 
+    height: 20px; 
+    background-color: bisque;
+    top: 125px; 
+    left: 340px; 
+    border-radius: 15px; 
+    position: absolute; 
+    text-align: center;
+
 }
 
-.card:hover {
-  transform: translateY(-4px);
+.greek{
+    width: 300px; 
+    height: 300px; 
+    border: 5px solid green; 
+    position: absolute; 
+    top: 100px; 
+    left: 650px; 
+    border-radius: 15px;
+    box-sizing: border-box; 
+    background-image: url(greek.jpg);
+    display: inline-block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;   
 }
 
-.card img {
-  width: 100%;
-  height: 140px;
-  object-fit: cover;
-  border-radius: 10px 10px 0 0;
+.third{
+    width: 289px; 
+    height: 20px; 
+    background-color: bisque;
+    top: 125px; 
+    left: 655px; 
+    border-radius: 15px; 
+    position: absolute; 
+    text-align: center;
+
 }
 
-.card h3 {
-  margin: 10px 0 5px;
+.italian{
+    width: 300px; 
+    height: 300px; 
+    border: 5px solid green; 
+    position: absolute; 
+    top: 100px; 
+    left: 965px; 
+    border-radius: 15px;
+    box-sizing: border-box; 
+    background-image: url(italian.jpg);
+    display: inline-block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;   
 }
 
-.card p {
-  font-size: 13px;
-  color: #555;
-  padding: 0 10px 10px;
+.fourth{
+    width: 289px; 
+    height: 20px; 
+    background-color: bisque;
+    top: 125px; 
+    left: 970px; 
+    border-radius: 15px; 
+    position: absolute; 
+    text-align: center;
+
 }
 
-
-.home {
-  position: absolute;
-  top: 15px;
-  left: 15px;
-  font-size: 24px;
-  text-decoration: none;
+p{
+    position: relative; 
+    top: 400px; 
 }
 
-.address {
-  font-size: 14px;
-  color: #064e3b;
+.Bluebeardimage{
+    width: 350px; 
+    height: 350px; 
+    border: 5px solid purple; 
+    position: absolute; 
+    top: 100px; 
+    left: 50px; 
+    border-radius: 15px;
+    box-sizing: border-box; 
+    background-image: url(Bluebeard.jpg);
+    display: inline-block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;  
+
 }
 
+.Bluebeard{
+    height: 30px; 
+    background-color: bisque;
+    top: 125px; 
+    width: 300px; 
+    left: 70px; 
+    border-radius: 15px; 
+    position: absolute; 
+    text-align: center;
 
-.panel {
-  background: #fff;
-  border-radius: 10px;
-  border: 1px solid #ddd;
-  padding: 20px;
-  margin-top: 20px;
 }
 
-.list {
-  margin: 0;
-  padding-left: 18px;
+.pfchangimage{
+    width: 340px; 
+    height: 330px; 
+    border: 5px solid purple; 
+    position: absolute; 
+    top: 100px; 
+    left: 50px; 
+    border-radius: 15px;
+    display: inline-block;
+    background-size: cover;
+    box-sizing: border-box; 
+    background-image: url(pfchang.jpg);
+    background-repeat: no-repeat;
+    background-position: center;  
+
 }
 
-.footer-note {
-  text-align: center;
-  color: #666;
-  padding: 20px;
-  font-size: 13px;
+.pfchang{
+    width: 340px; 
+    height: 20px; 
+    background-color: bisque;
+    top: 125px; 
+    left: 55px; 
+    border-radius: 15px; 
+    position: absolute; 
+    text-align: center;
+
+}
+
+.CanalBistroimage{
+    width: 350px; 
+    height: 350px; 
+    border: 5px solid purple; 
+    position: absolute; 
+    top: 100px; 
+    left: 50px; 
+    border-radius: 15px;
+    box-sizing: border-box; 
+    background-image: url(canalbistro.jpg);
+    display: inline-block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;  
+
+}
+
+.CanalBistro{
+    width: 339px; 
+    height: 20px; 
+    background-color: bisque;
+    top: 125px; 
+    left: 55px; 
+    border-radius: 15px; 
+    position: absolute; 
+    text-align: center;
+
+}
+
+.Bazbeauxpizzaimage{
+    width: 350px; 
+    height: 350px; 
+    border: 5px solid purple; 
+    position: absolute; 
+    background-image: url(Bazbeauxpizza.jpg);
+    display: inline-block;
+    background-size: cover;
+    top: 100px; 
+    left: 50px; 
+    border-radius: 15px;
+    box-sizing: border-box; 
+    background-repeat: no-repeat;
+    background-position: center;  
+
+}
+
+.Bazbeauxpizza{
+    width: 360px; 
+    height: 20px; 
+    background-color: bisque;
+    top: 125px; 
+    left: 55px; 
+    border-radius: 15px; 
+    position: absolute; 
+    text-align: center;
+
 }
